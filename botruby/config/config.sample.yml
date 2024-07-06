@@ -1,0 +1,59 @@
+
+token: EXAMPLETOKEN 
+client_id: 306142257818632193 
+prefixes:
+  - "s!!" # Please change.
+extra_commands: false
+master_owner: 1234567890
+redis_host: localhost
+redis_port: 6379
+redis_namespace: royaloakap
+redis_password: nil
+
+emoji_loading: <a:loading:393841895794671616>
+
+status: online
+game: Powered by Ruby!
+
+twitch_url: https://twitch.tv/example
+
+# Set to false for less console output.
+verbose: true
+
+## Set to a custom emoji using <:name:ID>
+emoji_tickbox: ✅
+emoji_error: ❌
+emoji_warning: ⚠
+emoji_clear: 🚮
+emoji_success: 👌
+typing_default: true
+show_invite: false
+invite_url: nil
+
+show_source: true
+source_url: https://github.com/Royaloakap
+show_help: true
+help_url: https://github.com/Royaloakap/wiki/commands
+
+show_support: true
+support_server: https://discord.gg/Royalc2
+
+show_donate_urls: true
+donate_urls:
+  - <https://github.com/sponsors/Royaloakap/>
+  - <https://github.com/sponsors/spotlightishere/>
+  - <https://paypal.me/royaloakap>
+
+hastebin_instance_url: https://haste.Royaloakap.uk
+
+discord_bots_api_key: ''
+
+##~~~ (: DONT TOUCH THIS PART :) ~~~##
+
+# Init options, if unsure please leave alone to avoid accidental catastrophes.
+parse_self: true
+parse_bots: false
+prefix_type: always
+type: :bot
+catch_errors: true
+debug: false

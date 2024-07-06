@@ -1,0 +1,9 @@
+# Lets not bake stray data into an image by mistake.
+data/redis/appendonly.aof
+data/redis/dump.rdb
+
+# While we do want all the sample configs (for processing),
+#  we definitely do not want actual config files to end up in images 
+config/config.yml
+config/custom/custom.rb
+config/custom/custom.yml
